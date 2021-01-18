@@ -7,7 +7,7 @@ SSH_PASS = $4
 BRANCH = $5
 DEPLOY_FOLDER = $6
 
-
+env
 echo "adding host to known host"
 mkdir -p ~/.ssh
 touch ~/.ssh/known_hosts 
